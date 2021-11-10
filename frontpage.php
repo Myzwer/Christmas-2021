@@ -2,7 +2,7 @@
 /**
  * Template Name: Front Page
  *
- * The Frontpage of the Wordpack Theme
+ * The Frontpage of the letitsnow Theme
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
