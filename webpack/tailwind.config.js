@@ -35,12 +35,15 @@ module.exports = {
         light: "#6495ED", // text-blue-light
         DEFAULT: "#0047AB", // text-blue
         dark: "#00008B", // text-blue-dark
-        100: "#ff0000", // text-blue-100
       },
-      pink: {
-        light: "#ff7ce5",
-        DEFAULT: "#ff49db",
-        dark: "#ff16d1",
+      red: {
+        DEFAULT: "#CA453D",
+      },
+      green: {
+        DEFAULT: "#1D5134",
+      },
+      yellow: {
+        DEFAULT: "#F4B470",
       },
       gray: {
         darkest: "#1f2d3d",
@@ -50,10 +53,10 @@ module.exports = {
         lightest: "#f9fafc",
       },
       white: {
-        DEFAULT: "#ffffff",
+        DEFAULT: "#FDFBEF",
       },
       black: {
-        DEFAULT: "#000000",
+        DEFAULT: "#333333",
       },
     },
   },
