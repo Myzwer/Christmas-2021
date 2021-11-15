@@ -25,3 +25,7 @@ import "../sass/frontend.scss";
     });
   }); // end DOM ready
 })(jQuery); // end jQuery
+
+jQuery(document).ready(function ($) {
+  $(".nav-list > li:last-child").attr("id", "cat");
+});
