@@ -46,26 +46,32 @@ get_header(); ?>
                 </a>
             </div>
         </div>
-
     </div>
+<!--End Modal-->
 
-    <video class="header-video"
-           src="https://foothillscollective.com/wp-content/uploads/2021/04/Res-Power-Background.mp4" autoplay loop
-           playsinline muted></video>
 
-    <div class="viewport-header">
-        <div class="head-container">
-            <div class="center add-padding">
-                <h1 class="text-white text-5xl pb-5">Header Title</h1>
-            </div>
-            <hr class="text-white pb-5">
-            <h2 class="text-white text-3xl ">Title</h2>
-            <h3 class="text-white text-2xl">Subtitle</h3>
+
+
+    <div class="bg-no-repeat bg-scroll bg-cover relative" style="background:
+    url('http://christmas-2021.local/wp-content/uploads/2021/11/AFC-Background-Banner.jpg') bottom center;
+ height: 60vh;">
+        <div class="text-center relative pt-24 lg:p-36">
+            <img class = "mx-auto w-11/12 md:w-8/12 lg:w-5/12" src="http://christmas-2021.local/wp-content/uploads/2021/11/A-Foothills-Christmas-Icon-Alt.png" alt="">
+
+            <h1 class = "uppercase text-red text-2xl md:text-3xl py-5 px-10">A place to <span class = "text-green">belong</span> this christmas.</h1>
+
+            <a download href="http://christmas-2021.local/wp-content/uploads/2021/11/afoothillschristmas.ics">
+                <button class="mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                    Mark Your Calendar <i class="far fa-calendar-alt"></i>
+                </button>
+            </a>
         </div>
+        <img class = "hidden lg:block absolute left-36 bottom-3" src="http://christmas-2021.local/wp-content/uploads/2021/11/Guy-with-Boxes.png" alt="">
+        <img class = "hidden lg:block absolute right-36 bottom-3" src="http://christmas-2021.local/wp-content/uploads/2021/11/GIrl-with-Bags.png" alt="">
     </div>
 
     <div class="bg-white pb-10">
-        <div class="m-4 md:m-10 lg:max-w-4xl lg:text-center lg:mx-auto pt-10">
+        <div class=" lg:max-w-4xl lg:text-center lg:mx-auto pt-10">
             <div class="grid">
                 <div class=" grid-cols-12">
                     <div class="col-span-12">
