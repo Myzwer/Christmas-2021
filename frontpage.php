@@ -18,7 +18,8 @@ get_header(); ?>
 
         <!-- Modal content -->
         <div class="modal-content">
-            <div class="modal-top bg-no-repeat bg-scroll bg-cover relative" style="background: url('http://christmas-2021.local/wp-content/uploads/2021/11/Modal-header.jpg') center center;">
+            <div class="modal-top bg-no-repeat bg-scroll bg-cover relative"
+                 style="background: url('http://christmas-2021.local/wp-content/uploads/2021/11/Modal-header.jpg') center center;">
 
                 <span class="close">
                     <i class="far fa-times-circle"></i>
@@ -32,12 +33,17 @@ get_header(); ?>
             <div class="modal-inner">
                 <p class="pb-5">You can add the event to you calendar now or get more information. We can't wait to see
                     you!</p>
-                <button class="mx-auto lg:mx-0 w-full bg-yellow text-black font-bold rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    <i class="far fa-calendar-alt"></i> Add To Calendar
-                </button>
-                <button class="mx-auto lg:mx-0 w-full border-black border-2 text-black font-bold rounded-full my-1 md:my-1 py-3 px-6 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    More Information
-                </button>
+                <a download href="http://christmas-2021.local/wp-content/uploads/2021/11/afoothillschristmas.ics">
+                    <button class="mx-auto lg:mx-0 w-full bg-yellow text-black font-bold rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                        <i class="far fa-calendar-alt"></i> Add To Calendar
+                    </button>
+                </a>
+
+                <a href="#">
+                    <button class="mx-auto lg:mx-0 w-full border-black border-2 text-black font-bold rounded-full my-1 md:my-1 py-3 px-6 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                        More Information
+                    </button>
+                </a>
             </div>
         </div>
 
