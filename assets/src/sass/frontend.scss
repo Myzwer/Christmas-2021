@@ -14,6 +14,7 @@
 @use 'components/footer';
 @use 'components/background';
 @use 'components/wordpress';
+@use 'components/modal';
 
 // This section adds tailwind, but @tailwind isn't recognized so we have to suppress stylelint.
 /* stylelint-disable */

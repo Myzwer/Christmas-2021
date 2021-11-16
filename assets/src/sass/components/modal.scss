@@ -1,0 +1,78 @@
+/**
+ * Modal
+ * =================================
+ * The site has modals all over it for calendar downloads. This styles those since its tricky to do with Tailwind.
+ * - Navbar
+ *
+ *
+ *
+ */
+
+.modal {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  display: none; /* Hidden by default */
+  height: 100%; /* Full height */
+  left: 0;
+  overflow: auto; /* Enable scroll if needed */
+  padding-top: 100px; /* Location of the box */
+  position: fixed; /* Stay in place */
+  top: 0;
+  width: 100%; /* Full width */
+  z-index: 11; /* Sit on top */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fdfbef;
+  border-radius: 11px;
+  margin: auto;
+  width: 80%;
+}
+@media screen and (min-width: 40em) {
+  .modal-content {
+    width: 500px;
+  }
+}
+
+.modal-inner {
+  padding: 20px;
+}
+
+/* The Close Button */
+.close {
+  color: #fdfbef;
+  font-size: 1.5em;
+  position: absolute;
+  right: 12px;
+  top: 8px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.modal-top {
+  background-color: #1d5134;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 60px 40px;
+  position: relative;
+  width: 100%;
+}
+
+.modal-icon {
+  color: #fdfbef;
+  font-size: 3em;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-icon img {
+  width: 80px;
+}
