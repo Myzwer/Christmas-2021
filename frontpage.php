@@ -55,13 +55,13 @@ get_header(); ?>
     <div class="bg-no-repeat bg-scroll bg-cover relative" style="background:
     url('http://christmas-2021.local/wp-content/uploads/2021/11/AFC-Background-Banner.jpg') bottom center;
  height: 60vh;">
-        <div class="text-center relative pt-24 lg:p-36">
+        <div class="text-center relative pt-24 lg:p-36 z-5">
             <img class = "mx-auto w-11/12 md:w-8/12 lg:w-5/12" src="http://christmas-2021.local/wp-content/uploads/2021/11/A-Foothills-Christmas-Icon-Alt.png" alt="">
 
-            <h1 class = "uppercase text-red text-2xl md:text-3xl py-5 px-10">A place to <span class = "text-green">belong</span> this christmas.</h1>
+            <h1 class = "uppercase text-red text-2xl md:text-3xl py-5 px-10 z-5">A place to <span class = "text-green">belong</span> this christmas.</h1>
 
             <a download href="http://christmas-2021.local/wp-content/uploads/2021/11/afoothillschristmas.ics">
-                <button class="mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                <button class="mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
                     Mark Your Calendar <i class="far fa-calendar-alt"></i>
                 </button>
             </a>

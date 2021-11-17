@@ -18,6 +18,9 @@ module.exports = {
   purge: ["*.php", "./assets/src/js/*.js"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    zIndex: {
+      5: 5,
+    },
     colors: {
       transparent: "transparent",
       current: "currentColor",
