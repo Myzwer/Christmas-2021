@@ -51,7 +51,7 @@ get_header(); ?>
 
 
 
-
+    <div id="particles-js"></div>
     <div class="bg-no-repeat bg-scroll bg-cover relative" style="background:
     url('http://christmas-2021.local/wp-content/uploads/2021/11/AFC-Background-Banner.jpg') bottom center;
  height: 60vh;">
