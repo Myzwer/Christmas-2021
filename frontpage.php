@@ -68,7 +68,7 @@ get_header(); ?>
     <div class="bg-no-repeat bg-scroll bg-cover relative pb-10" style="background:
     url('http://christmas-2021.local/wp-content/uploads/2021/11/Home-Noise-Background.jpg') bottom center;">
         <div class="grid grid-cols-12 gap-4 lg:gap-4 lg:w-7/12 mx-4 lg:mx-auto pt-10 text-white">
-            <div class="col-span-12 md:col-span-6 bg-red rounded-lg shadow-xl p-4">
+            <div class="col-span-12 md:col-span-6 bg-red rounded-lg shadow-xl p-4 z-5">
                 <div class="border-2 rounded-md">
                     <div class="text-left uppercase p-2">
                         <h2 class=" text-xl text-center pb-5">Join us in Maryville</h2>
@@ -77,7 +77,7 @@ get_header(); ?>
                         <p><span class="font-black">Where:</span> 1551 W. lamar Alexander Pkwy. <br />maryville tn 37801</p>
                     </div>
                     <div class="text-center mb-5">
-                        <button class="mx-auto lg:mx-0 bg-yellow text-black rounded-full my-1 md:my-1 py-3 px-4 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
+                        <button id = "three" class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
                             Mark Your Calendar <i class="far fa-calendar-alt"></i>
                         </button>
                         <button class="mx-auto lg:mx-0  border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-7 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
@@ -87,7 +87,7 @@ get_header(); ?>
                 </div>
             </div>
 
-            <div class="col-span-12 md:col-span-6 bg-green rounded-lg shadow-xl p-4">
+            <div class="col-span-12 md:col-span-6 bg-green rounded-lg shadow-xl p-4 z-5">
                 <div class="border-2 rounded-md">
                     <div class="text-left uppercase p-2">
                         <h2 class=" text-xl text-center pb-5">Join us in Bearden</h2>
@@ -96,7 +96,7 @@ get_header(); ?>
                         <p><span class="font-black">Where:</span> 1000 Francis Rd. <br /> Knoxville, TN 37909</p>
                     </div>
                     <div class="text-center mb-5">
-                        <button class="mx-auto lg:mx-0 bg-yellow text-black rounded-full my-1 md:my-1 py-3 px-4 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
+                        <button id = "four" class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
                             Mark Your Calendar <i class="far fa-calendar-alt"></i>
                         </button>
                         <button class="mx-auto lg:mx-0  border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-7 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
