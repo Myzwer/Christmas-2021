@@ -62,9 +62,9 @@ get_header(); ?>
                 Mark Your Calendar <i class="far fa-calendar-alt"></i>
             </button>
         </div>
-        <img class="hidden lg:block absolute left-36 bottom-3"
+        <img class="hidden lg:block absolute left-36 bottom-3 z-5"
              src="http://christmas-2021.local/wp-content/uploads/2021/11/Guy-with-Boxes.png" alt="">
-        <img class="hidden lg:block absolute right-36 bottom-3"
+        <img class="hidden lg:block absolute right-36 bottom-3 z-5"
              src="http://christmas-2021.local/wp-content/uploads/2021/11/GIrl-with-Bags.png" alt="">
     </div>
 
@@ -121,7 +121,7 @@ get_header(); ?>
             <div class="grid grid-cols-12 gap-4 mx-2 text-black">
                 <div class="col-span-12 md:col-span-8 px-4 pt-4 text-left">
                     <h2 class="uppercase text-3xl lg:text-4xl">Free Parent Resource</h2>
-                    <p class="capitalize text-lg">5 ways you can talk to your child about the Christmas Season</p>
+                    <p class="capitalize text-lg lg:text-xl">5 ways you can talk to your child about the Christmas Story</p>
                 </div>
 
                 <div class="col-start-5 col-span-10 md:col-start-1 md:col-span-6 p-4">
