@@ -16,4 +16,25 @@
   display: none;
 }
 
+.gform_body input {
+  background-color: #ca453d;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.gfield_required {
+  color: #ca453d;
+}
+
+.gform_body input::placeholder {
+  color: #fdfbef;
+}
+
+.gform_button {
+  background-color: #f4b470;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 5px 30px;
+}
+
 /* stylelint-enable selector-max-id, selector-max-compound-selectors, selector-class-pattern */

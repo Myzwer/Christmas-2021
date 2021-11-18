@@ -26,9 +26,11 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="modal-inner">
-                        <p class="pb-5">You can add the event to you calendar now or get more information. We can't wait to see
+                        <p class="pb-5">You can add the event to you calendar now or get more information. We can't wait
+                            to see
                             you!</p>
-                        <a download href="http://christmas-2021.local/wp-content/uploads/2021/11/afoothillschristmas.ics">
+                        <a download
+                           href="http://christmas-2021.local/wp-content/uploads/2021/11/afoothillschristmas.ics">
                             <button class="mx-auto lg:mx-0 w-full bg-yellow text-black font-bold rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                                 <i class="far fa-calendar-alt"></i> Add To Calendar
                             </button>
@@ -55,9 +57,10 @@ get_header(); ?>
                  src="http://christmas-2021.local/wp-content/uploads/2021/11/A-Foothills-Christmas-Icon-Alt.png" alt="">
             <h1 class="uppercase text-red text-2xl md:text-3xl py-5 px-10 z-5">A place to <span class="text-green">belong</span>
                 this christmas.</h1>
-                <button id = "two" class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
-                    Mark Your Calendar <i class="far fa-calendar-alt"></i>
-                </button>
+            <button id="two"
+                    class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
+                Mark Your Calendar <i class="far fa-calendar-alt"></i>
+            </button>
         </div>
         <img class="hidden lg:block absolute left-36 bottom-3"
              src="http://christmas-2021.local/wp-content/uploads/2021/11/Guy-with-Boxes.png" alt="">
@@ -74,10 +77,12 @@ get_header(); ?>
                         <h2 class=" text-xl text-center pb-5">Join us in Maryville</h2>
                         <p class="font-light"><span class="font-black">When:</span> December 19th</p>
                         <p><span class="font-black">Time:</span> 9am & 11am</p>
-                        <p><span class="font-black">Where:</span> 1551 W. lamar Alexander Pkwy. <br />maryville tn 37801</p>
+                        <p><span class="font-black">Where:</span> 1551 W. lamar Alexander Pkwy. <br/>maryville tn 37801
+                        </p>
                     </div>
                     <div class="text-center mb-5">
-                        <button id = "three" class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
+                        <button id="three"
+                                class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
                             Mark Your Calendar <i class="far fa-calendar-alt"></i>
                         </button>
                         <button class="mx-auto lg:mx-0  border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-7 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
@@ -93,10 +98,11 @@ get_header(); ?>
                         <h2 class=" text-xl text-center pb-5">Join us in Bearden</h2>
                         <p class="font-light"><span class="font-black">When:</span> December 19th</p>
                         <p><span class="font-black">Time:</span> 11am</p>
-                        <p><span class="font-black">Where:</span> 1000 Francis Rd. <br /> Knoxville, TN 37909</p>
+                        <p><span class="font-black">Where:</span> 1000 Francis Rd. <br/> Knoxville, TN 37909</p>
                     </div>
                     <div class="text-center mb-5">
-                        <button id = "four" class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
+                        <button id="four"
+                                class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
                             Mark Your Calendar <i class="far fa-calendar-alt"></i>
                         </button>
                         <button class="mx-auto lg:mx-0  border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-7 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
@@ -108,23 +114,24 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="bg-white relative pb-10">
-        <div class="grid grid-cols-12 gap-4 mx-2 text-black">
-            <div class="col-span-12 p-4 text-left">
-                <h2 class = "uppercase text-2xl">Free Parent Resource</h2>
-                <p class = "capitalize text-lg">5 ways you can talk to your child about the Christmas Season</p>
-            </div>
-            <div class="col-span-4 md:col-span-6 p-4">
-                <img class = "h-full min-w-full" src="http://christmas-2021.local/wp-content/uploads/2021/11/Single-Person-1.png" alt="">
-            </div>
+    <div class="bg-white relative">
+        <div class="lg:w-7/12 mx-auto relative">
+            <img class="absolute tree-girl"
+                 src="http://christmas-2021.local/wp-content/uploads/2021/11/Single-Person-1.png" alt="">
+            <div class="grid grid-cols-12 gap-4 mx-2 text-black">
+                <div class="col-span-12 md:col-span-8 px-4 pt-4 text-left">
+                    <h2 class="uppercase text-3xl lg:text-4xl">Free Parent Resource</h2>
+                    <p class="capitalize text-lg">5 ways you can talk to your child about the Christmas Season</p>
+                </div>
 
-            <div class="col-span-8 md:col-span-6 p-4">
-                <?php if (have_posts()) : while (have_posts()) : the_post();
-                    the_content();
-                endwhile;
-                else: ?>
-                    <p>Sorry, no posts matched your criteria.</p>
-                <?php endif; ?>
+                <div class="col-start-5 col-span-10 md:col-start-1 md:col-span-6 p-4">
+                    <?php if (have_posts()) : while (have_posts()) : the_post();
+                        the_content();
+                    endwhile;
+                    else: ?>
+                        <p>Sorry, no posts matched your criteria.</p>
+                    <?php endif; ?>
+                </div>
             </div>
         </div>
     </div>
