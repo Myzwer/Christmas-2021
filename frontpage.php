@@ -116,6 +116,27 @@ get_header(); ?>
         </div>
     </div>
 
+    <div class="bg-white relative pb-10">
+        <div class="grid grid-cols-12 gap-4 mx-2 text-black">
+            <div class="col-span-12 p-4 text-left">
+                <h2 class = "uppercase text-2xl">Free Parent Resource</h2>
+                <p class = "capitalize text-lg">5 ways you can talk to your child about the Christmas Season</p>
+            </div>
+            <div class="col-span-4 md:col-span-6 p-4">
+                <img class = "h-full min-w-full" src="http://christmas-2021.local/wp-content/uploads/2021/11/Single-Person-1.png" alt="">
+            </div>
+
+            <div class="col-span-8 md:col-span-6 p-4">
+                <?php if (have_posts()) : while (have_posts()) : the_post();
+                    the_content();
+                endwhile;
+                else: ?>
+                    <p>Sorry, no posts matched your criteria.</p>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+
 
 <?php
 get_footer();

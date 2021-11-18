@@ -2,22 +2,13 @@
  * Wordpress
  * =================================
  * Sometimes wordpress generates things and tailwind can't hit it. This edits those.
- * - Single - Category
- * - Single - Next/Prev post
+ * - Forms - Gravity Forms
  *
  *
  *
  */
 
-.category {
-  ul {
-    display: inline-block;
-  }
-
-  li {
-    background-color: #0a4b78;
-    padding: 10px;
-  }
+.gform_title,
+.gform_description {
+  display: none;
 }
-
-/* Next Prev Post */
