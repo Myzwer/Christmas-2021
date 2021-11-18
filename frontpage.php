@@ -81,13 +81,17 @@ get_header(); ?>
                         </p>
                     </div>
                     <div class="text-center mb-5">
-                        <button id="three"
-                                class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
-                            Mark Your Calendar <i class="far fa-calendar-alt"></i>
-                        </button>
-                        <button class="mx-auto lg:mx-0  border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-7 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                            More Information
-                        </button>
+                        <div class = "block">
+                            <button id="three"
+                                    class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-3 px-5 md:px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
+                                Mark Your Calendar <i class="far fa-calendar-alt"></i>
+                            </button>
+                        </div>
+                        <div class = "block">
+                            <button class="mx-auto lg:mx-0  border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-6 md:px-6 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                More Information
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -101,13 +105,17 @@ get_header(); ?>
                         <p><span class="font-black">Where:</span> 1000 Francis Rd. <br/> Knoxville, TN 37909</p>
                     </div>
                     <div class="text-center mb-5">
-                        <button id="four"
-                                class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
-                            Mark Your Calendar <i class="far fa-calendar-alt"></i>
-                        </button>
-                        <button class="mx-auto lg:mx-0  border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-7 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                            More Information
-                        </button>
+                        <div class = "block">
+                            <button id="four"
+                                    class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-3 px-5 md:px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
+                                Mark Your Calendar <i class="far fa-calendar-alt"></i>
+                            </button>
+                        </div>
+                        <div class = "block">
+                            <button class="mx-auto lg:mx-0  border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-6 md:px-6 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                More Information
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

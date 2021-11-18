@@ -20,6 +20,12 @@
   background-color: #ca453d;
   border-radius: 8px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  color: #fdfbef;
+}
+
+.gform_body input:focus {
+  border: 1px solid #1d5134;
+  outline: none !important;
 }
 
 .gfield_required {
@@ -28,6 +34,7 @@
 
 .gform_body input::placeholder {
   color: #fdfbef;
+  opacity: 0.5;
 }
 
 .gform_button {
