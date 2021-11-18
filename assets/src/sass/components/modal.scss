@@ -8,51 +8,202 @@
  *
  */
 
-.modal {
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-  display: none; /* Hidden by default */
-  height: 100%; /* Full height */
+/* stylelint-disable selector-max-id selector-max-compound-selectors */
+#modal-container {
+  display: table;
+  height: 100%;
   left: 0;
-  overflow: auto; /* Enable scroll if needed */
-  padding-top: 100px; /* Location of the box */
-  position: fixed; /* Stay in place */
+  position: fixed;
   top: 0;
-  width: 100%; /* Full width */
-  z-index: 11; /* Sit on top */
+  transform: scale(0);
+  width: 100%;
+  z-index: 30;
 }
 
-/* Modal Content */
-.modal-content {
+// Button 1 on the page
+#modal-container.one {
+  animation: unfoldIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  transform: scaleY(0.01) scaleX(0);
+}
+#modal-container.one .modal-background .modal {
+  animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  transform: scale(0);
+}
+#modal-container.one.out {
+  animation: unfoldOut 1s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  transform: scale(1);
+}
+#modal-container.one.out .modal-background .modal {
+  animation: zoomOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+// Button 2 on the page
+#modal-container.two {
+  animation: unfoldIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  transform: scaleY(0.01) scaleX(0);
+}
+#modal-container.two .modal-background .modal {
+  animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  transform: scale(0);
+}
+#modal-container.two.out {
+  animation: unfoldOut 1s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  transform: scale(1);
+}
+#modal-container.two.out .modal-background .modal {
+  animation: zoomOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+// Button 3 on the page
+#modal-container.three {
+  animation: unfoldIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  transform: scaleY(0.01) scaleX(0);
+}
+#modal-container.three .modal-background .modal {
+  animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  transform: scale(0);
+}
+#modal-container.three.out {
+  animation: unfoldOut 1s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  transform: scale(1);
+}
+#modal-container.three.out .modal-background .modal {
+  animation: zoomOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+// Button 4 on the page
+#modal-container.four {
+  animation: unfoldIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  transform: scaleY(0.01) scaleX(0);
+}
+#modal-container.four .modal-background .modal {
+  animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  transform: scale(0);
+}
+#modal-container.four.out {
+  animation: unfoldOut 1s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  transform: scale(1);
+}
+#modal-container.four.out .modal-background .modal {
+  animation: zoomOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+#modal-container .modal-background {
+  background: rgba(0, 0, 0, 0.8);
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#modal-container .modal-background .modal {
   background-color: #fdfbef;
   border-radius: 11px;
+  display: inline-block;
+  font-weight: 300;
   margin: auto;
+  position: relative;
   width: 80%;
 }
+
 @media screen and (min-width: 40em) {
-  .modal-content {
+  #modal-container .modal-background .modal {
     width: 500px;
+  }
+}
+#modal-container .modal-background .modal h2 {
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+#modal-container .modal-background .modal p {
+  font-size: 18px;
+  line-height: 22px;
+}
+#modal-container .modal-background .modal .modal-svg {
+  border-radius: 3px;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#modal-container .modal-background .modal .modal-svg rect {
+  stroke: #ffffff;
+  stroke-dasharray: 778;
+  stroke-dashoffset: 778;
+  stroke-width: 2px;
+}
+
+.content {
+  background: white;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+  z-index: 0;
+}
+.content h1 {
+  font-size: 30px;
+  line-height: 30px;
+  padding: 75px 0 30px;
+  text-align: center;
+}
+
+@keyframes unfoldIn {
+  0% {
+    transform: scaleY(0.005) scaleX(0);
+  }
+  50% {
+    transform: scaleY(0.005) scaleX(1);
+  }
+  100% {
+    transform: scaleY(1) scaleX(1);
+  }
+}
+@keyframes unfoldOut {
+  0% {
+    transform: scaleY(1) scaleX(1);
+  }
+  50% {
+    transform: scaleY(0.005) scaleX(1);
+  }
+  100% {
+    transform: scaleY(0.005) scaleX(0);
+  }
+}
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes zoomOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    background: rgba(0, 0, 0, 0);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.7);
+  }
+}
+@keyframes fadeOut {
+  0% {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0);
   }
 }
 
 .modal-inner {
   padding: 20px;
-}
-
-/* The Close Button */
-.close {
-  color: #fdfbef;
-  font-size: 1.5em;
-  position: absolute;
-  right: 12px;
-  top: 8px;
-}
-
-.close:hover,
-.close:focus {
-  color: #000000;
-  cursor: pointer;
-  text-decoration: none;
 }
 
 .modal-top {
@@ -76,3 +227,4 @@
 .modal-icon img {
   width: 80px;
 }
+/* stylelint-enable selector-max-id */

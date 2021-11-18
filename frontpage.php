@@ -14,58 +14,50 @@
 get_header(); ?>
 
     <!-- The Modal -->
-    <div id="modal" class="modal">
+    <div id="modal-container">
+        <div class="modal-background">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-top bg-no-repeat bg-scroll bg-cover relative"
+                         style="background: url('http://christmas-2021.local/wp-content/uploads/2021/11/Modal-header.jpg') center center;">
 
-        <!-- Modal content -->
-        <div class="modal-content">
-            <div class="modal-top bg-no-repeat bg-scroll bg-cover relative"
-                 style="background: url('http://christmas-2021.local/wp-content/uploads/2021/11/Modal-header.jpg') center center;">
+                        <div class="modal-icon">
+                            <img src="http://christmas-2021.local/wp-content/uploads/2021/11/FC-logo-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="modal-inner">
+                        <p class="pb-5">You can add the event to you calendar now or get more information. We can't wait to see
+                            you!</p>
+                        <a download href="http://christmas-2021.local/wp-content/uploads/2021/11/afoothillschristmas.ics">
+                            <button class="mx-auto lg:mx-0 w-full bg-yellow text-black font-bold rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                <i class="far fa-calendar-alt"></i> Add To Calendar
+                            </button>
+                        </a>
 
-                <span class="close">
-                    <i class="far fa-times-circle"></i>
-                </span>
-
-                <div class="modal-icon">
-                    <img src="http://christmas-2021.local/wp-content/uploads/2021/11/FC-logo-1.png" alt="">
-
+                        <a href="#">
+                            <button class="mx-auto lg:mx-0 w-full border-black border-2 text-black font-bold rounded-full my-1 md:my-1 py-3 px-6 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                More Information
+                            </button>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="modal-inner">
-                <p class="pb-5">You can add the event to you calendar now or get more information. We can't wait to see
-                    you!</p>
-                <a download href="http://christmas-2021.local/wp-content/uploads/2021/11/afoothillschristmas.ics">
-                    <button class="mx-auto lg:mx-0 w-full bg-yellow text-black font-bold rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                        <i class="far fa-calendar-alt"></i> Add To Calendar
-                    </button>
-                </a>
-
-                <a href="#">
-                    <button class="mx-auto lg:mx-0 w-full border-black border-2 text-black font-bold rounded-full my-1 md:my-1 py-3 px-6 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                        More Information
-                    </button>
-                </a>
             </div>
         </div>
     </div>
     <!--End Modal-->
 
-
     <div id="particles-js"></div>
     <div class="bg-no-repeat bg-scroll bg-cover relative" style="background:
     url('http://christmas-2021.local/wp-content/uploads/2021/11/AFC-Background-Banner.jpg') bottom center;
- height: 60vh;">
+ height: 70vh;">
         <div class="text-center relative pt-24 lg:p-36 z-5">
             <img class="mx-auto w-11/12 md:w-8/12 lg:w-5/12"
                  src="http://christmas-2021.local/wp-content/uploads/2021/11/A-Foothills-Christmas-Icon-Alt.png" alt="">
-
             <h1 class="uppercase text-red text-2xl md:text-3xl py-5 px-10 z-5">A place to <span class="text-green">belong</span>
                 this christmas.</h1>
-
-            <a download href="http://christmas-2021.local/wp-content/uploads/2021/11/afoothillschristmas.ics">
-                <button class="mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
+                <button id = "two" class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
                     Mark Your Calendar <i class="far fa-calendar-alt"></i>
                 </button>
-            </a>
         </div>
         <img class="hidden lg:block absolute left-36 bottom-3"
              src="http://christmas-2021.local/wp-content/uploads/2021/11/Guy-with-Boxes.png" alt="">
