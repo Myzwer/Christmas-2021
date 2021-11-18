@@ -121,7 +121,8 @@ get_header(); ?>
             <div class="grid grid-cols-12 gap-4 mx-2 text-black">
                 <div class="col-span-12 md:col-span-8 px-4 pt-4 text-left">
                     <h2 class="uppercase text-3xl lg:text-4xl">Free Parent Resource</h2>
-                    <p class="capitalize text-lg lg:text-xl">5 ways you can talk to your child about the Christmas Story</p>
+                    <p class="capitalize text-lg lg:text-xl">5 ways you can talk to your child about the Christmas
+                        Story</p>
                 </div>
 
                 <div class="col-start-5 col-span-10 md:col-start-1 md:col-span-6 p-4">
@@ -132,6 +133,58 @@ get_header(); ?>
                         <p>Sorry, no posts matched your criteria.</p>
                     <?php endif; ?>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-green relative py-10">
+        <div class="lg:w-10/12 mx-auto">
+            <div class="grid grid-cols-12 gap-4 lg:gap-10 mx-4 text-black">
+                <div class="col-span-12 md:col-span-4">
+                    <div class="shadow-lg">
+                        <img class="rounded-t-lg"
+                             src="http://christmas-2021.local/wp-content/uploads/2021/11/Home-FTG-Thumbnail.jpg" alt="">
+                        <div class="bg-red text-center text-white py-10 rounded-b-lg">
+                            <h3 class="text-2xl font-bold uppercase">First Time?</h3>
+                            <a href="#">
+                                <button class="mx-auto lg:mx-0 border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-7 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                    <i class="fas fa-gift"></i> Plan Your Visit
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-12 md:col-span-4">
+                    <div class="shadow-lg">
+                        <img class="rounded-t-lg"
+                             src="http://christmas-2021.local/wp-content/uploads/2021/11/Home-Kids-Thumbnail.jpg" alt="">
+                        <div class="bg-red text-center text-white py-10 rounded-b-lg">
+                            <h3 class="text-2xl font-bold uppercase">Bring The Family!</h3>
+                            <a href="#">
+                                <button class="mx-auto lg:mx-0 border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-7 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                    <i class="fas fa-gift"></i> Kids Activities
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-12 md:col-span-4">
+                    <div class="shadow-lg">
+                        <img class="rounded-t-lg"
+                             src="http://christmas-2021.local/wp-content/uploads/2021/11/Home-Experience-Thumbnail.jpg" alt="">
+                        <div class="bg-red text-center text-white py-10 rounded-b-lg">
+                            <h3 class="text-2xl font-bold uppercase">Things To Do</h3>
+                            <a href="#">
+                                <button class="mx-auto lg:mx-0 border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-7 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                    <i class="fas fa-gift"></i> See All Activities
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
