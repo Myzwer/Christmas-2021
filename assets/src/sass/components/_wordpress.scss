@@ -8,7 +8,12 @@
  *
  */
 
+// Not my class names, sooo....
+/* stylelint-disable selector-max-id, selector-max-compound-selectors, selector-class-pattern */
+
 .gform_title,
 .gform_description {
   display: none;
 }
+
+/* stylelint-enable selector-max-id, selector-max-compound-selectors, selector-class-pattern */
