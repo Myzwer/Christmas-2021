@@ -26,16 +26,24 @@ canvas {
 }
 /* stylelint-enable selector-max-id */
 
+// Had to make this wonderful class because tailwind couldn't get its crap together
+// It isn't my fault.
+// I'm not salty.
 @media screen and (max-width: 767px) {
   .tree-girl {
     bottom: 0;
     left: -7em;
   }
 }
-
 @media screen and (min-width: 768px) {
   .tree-girl {
     bottom: 0;
     right: 0;
   }
+}
+
+// Leading-relaxed is 8 feet apart and leading normal is on top of itself. This splits the difference
+// Tailwind's size classes ship a default line spacing with a higher specificity. So. important.
+.leading-ish {
+  line-height: 1.4 !important;
 }
