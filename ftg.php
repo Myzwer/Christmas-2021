@@ -57,7 +57,36 @@ get_header(); ?>
     url('http://christmas-2021.local/wp-content/uploads/2021/11/All-People.png') bottom center; height: 90vh;">
             <div class="visible text-left relative pt-10 px-3 z-5">
                 <h1 class="uppercase text-red text-6xl lg:text-8xl font-black leading-ish">You Belong here</h1>
-                <p class="capitalize text-red font-bold text-lg lg:text-2xl  pr-10">We’d love to see you and your family for A Foothills Christmas!</p>
+                <p class="capitalize text-red font-bold text-lg lg:text-2xl  pr-10">We’d love to see you and your
+                    family
+                    for A Foothills Christmas!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-red p-5 relative">
+        <div class="lg:w-9/12 mx-auto">
+            <div class="border-2 border-white rounded-md md:p-5">
+                <div class="grid grid-cols-12 gap-4 lg:gap-4 py-4 text-white">
+                    <div class="col-span-12 md:col-span-7 px-4 md:pt-10 z-5 relative">
+                        <div class="content-middle-medium">
+                            <h2 class="text-lg md:text-2xl lg:text-4xl uppercase font-black text-left">We have a gift
+                                for
+                                you!</h2>
+                            <p class="text-md">If it's your first time, stop by one of our black VIP tents outside and
+                                we
+                                would
+                                love to
+                                gift you with a free mug!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-span-12 md:col-span-5 px-4 z-5">
+                        <img class="rounded-md shadow-lg"
+                             src="http://christmas-2021.local/wp-content/uploads/2021/11/FTG-Christmas-Mug.jpg"
+                             alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
