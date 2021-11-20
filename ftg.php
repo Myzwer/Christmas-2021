@@ -91,6 +91,34 @@ get_header(); ?>
         </div>
     </div>
 
+    <div class="bg-white py-5 relative">
+        <div class="lg:w-9/12 mx-auto relative">
+            <div class="grid grid-cols-12 gap-4 p-5">
+                <div class="col-span-12 md:col-span-11 text-left">
+                    <h2 class="uppercase text-2xl lg:text-4xl">You have a place to <span class="text-red">belong</span>
+                        this christmas</h2>
+                    <p class="text-md lg:text-xl">Whether you're in Knoxville or Maryville, we have a place
+                        for you to belong this Christmas. Bring your whole family as we take some time to focus on
+                        what's truly important this Christmas.</p>
+                </div>
+
+                <!-- Outer grid for the times-->
+                <div class="col-span-12 md:col-span-8">
+                    <div class="grid grid-cols-12">
+                        <div class="col-span-12 md:col-span-6 pb-5">
+                            <h4 class="font-black text-2xl">Maryville</h4>
+                            <p>9am & 11am - December 19</p>
+                        </div>
+                        <div class="col-span-12 md:col-span-6">
+                            <h4 class="font-black text-2xl">Bearden</h4>
+                            <p>11am - December 19</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 <?php
 get_footer();
