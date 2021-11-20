@@ -119,6 +119,57 @@ get_header(); ?>
         </div>
     </div>
 
+    <div class="bg-green py-5 relative">
+        <div class="lg:w-9/12 mx-auto relative text-white">
+            <div class="grid grid-cols-12 gap-4 p-5">
+                <div class="col-span-12 md:col-span-8 text-left">
+                    <h2 class="uppercase text-2xl lg:text-4xl pb-5">How do i get there?</h2>
+                    <?php if (have_posts()) : while (have_posts()) : the_post();
+                        the_content();
+                    endwhile;
+                    else: ?>
+                        <p>Sorry, no posts matched your criteria.</p>
+                    <?php endif; ?>
+                </div>
+
+                <!-- Outer grid for the times-->
+                <div class="col-span-12 md:col-span-12">
+                    <div class="grid grid-cols-12">
+                        <div class="col-span-12 md:col-span-6 pb-5">
+                            <h4 class="font-black text-2xl">Maryville</h4>
+                            <p>1551 West Lamar Alexander Pkwy <br/>
+                                Maryville, TN </p>
+                            <div class="text-left mb-5">
+                                <button id = "three"
+                                        class="button mx-auto lg:mx-0 bg-yellow text-black rounded-full my-1 md:my-1 py-2 px-3 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
+                                    Mark Your Calendar <i class="far fa-calendar-alt"></i>
+                                </button>
+                                <button class="mx-auto lg:mx-0 border-white border-2 text-white font-light rounded-full my-1 md:my-1 py-1 px-7 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                    <i class="fas fa-map-marker-alt"></i> Get Directions
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-span-12 md:col-span-6">
+                            <h4 class="font-black text-2xl">Bearden</h4>
+                            <p>1000 Francis Rd. <br/>
+                                Knoxville, TN 37909</p>
+                            <div class="text-left mb-5">
+                                <button id = "four"
+                                        class="button mx-auto lg:mx-0 bg-yellow text-black rounded-full my-1 md:my-1 py-2 px-3 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
+                                    Mark Your Calendar <i class="far fa-calendar-alt"></i>
+                                </button>
+                                <button class="mx-auto lg:mx-0 border-white border-2 text-white font-light rounded-full my-1 md:my-1 py-1 px-7 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                    <i class="fas fa-map-marker-alt"></i> Get Directions
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 <?php
 get_footer();
