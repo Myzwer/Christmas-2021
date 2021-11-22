@@ -140,7 +140,7 @@ get_header(); ?>
                             <p>1551 West Lamar Alexander Pkwy <br/>
                                 Maryville, TN </p>
                             <div class="text-left mb-5">
-                                <button id = "three"
+                                <button id="three"
                                         class="button mx-auto lg:mx-0 bg-yellow text-black rounded-full my-1 md:my-1 py-2 px-3 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
                                     Mark Your Calendar <i class="far fa-calendar-alt"></i>
                                 </button>
@@ -155,7 +155,7 @@ get_header(); ?>
                             <p>1000 Francis Rd. <br/>
                                 Knoxville, TN 37909</p>
                             <div class="text-left mb-5">
-                                <button id = "four"
+                                <button id="four"
                                         class="button mx-auto lg:mx-0 bg-yellow text-black rounded-full my-1 md:my-1 py-2 px-3 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
                                     Mark Your Calendar <i class="far fa-calendar-alt"></i>
                                 </button>
@@ -166,6 +166,100 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white py-5">
+        <div class="lg:w-9/12 mx-auto">
+            <div class="grid grid-cols-12 gap-4 p-5">
+                <div class="col-span-12 md:col-span-12 text-left">
+                    <h2 class="uppercase text-2xl lg:text-4xl">FAQ</h2>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-12 gap-4 px-5">
+                <div class="col-span-12 md:col-span-6">
+                    <div class="pb-5">
+                        <h4 class="font-black text-xl uppercase">WHERE DO I GO WHEN I GET THERE?</h4>
+                        <p>If it's your first time visiting us, our volunteers will direct you to our VIP Parking. We
+                            have a special parking reserved for you. As you arrive on campus, just follow the signs to
+                            our VIP lot. From there, one of our volunteers will direct you to our VIP tent, where a
+                            Guest Experience volunteer will meet with you and help get started.</p>
+                    </div>
+                    <div class="pb-5">
+                        <h4 class="font-black text-xl uppercase">What do I wear?</h4>
+                        <p>Here at FC we encourage you to come as you are. There is no dress code, but most of our
+                            partners wear casual attire. Please feel free to wear what makes you comfortable!</p>
+                    </div>
+                    <div class="pb-5">
+                        <h4 class="font-black text-xl uppercase">HOW LONG DOES THE WORSHIP EXPERIENCE LAST?</h4>
+                        <p>Our worship experience usually lasts approximately 70 minutes. We encourage you to arrive
+                            early to grab some coffee and check your children into one of our FC Kids environments.</p>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-6">
+                    <div class="pb-5">
+                        <h4 class="font-black text-xl uppercase">WHERE DO I GO WHEN I GET THERE?</h4>
+                        <p>If it's your first time visiting us, our volunteers will direct you to our VIP Parking. We
+                            have a special parking reserved for you. As you arrive on campus, just follow the signs to
+                            our VIP lot. From there, one of our volunteers will direct you to our VIP tent, where a
+                            Guest Experience volunteer will meet with you and help get started.</p>
+                    </div>
+                    <div class="pb-5">
+                        <h4 class="font-black text-xl uppercase">What do I wear?</h4>
+                        <p>Here at FC we encourage you to come as you are. There is no dress code, but most of our
+                            partners wear casual attire. Please feel free to wear what makes you comfortable!</p>
+                    </div>
+                    <div class="pb-5">
+                        <h4 class="font-black text-xl uppercase">HOW LONG DOES THE WORSHIP EXPERIENCE LAST?</h4>
+                        <p>Our worship experience usually lasts approximately 70 minutes. We encourage you to arrive
+                            early to grab some coffee and check your children into one of our FC Kids environments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-green relative py-10">
+        <div class="lg:w-10/12 mx-auto">
+            <div class="grid grid-cols-12 gap-4 lg:gap-10 mx-4 text-black">
+                <div class="col-span-12 md:col-span-4">
+                    <div class="shadow-lg">
+                        <img class="rounded-t-lg"
+                             src="http://christmas-2021.local/wp-content/uploads/2021/11/FTG-Kids-Thumbnail.jpg" alt="">
+                        <div class="bg-red text-center text-white py-10 rounded-b-lg">
+                            <h3 class="text-2xl font-bold uppercase">Bring The Family!</h3>
+                            <a href="#">
+                                <button class="mx-auto lg:mx-0 border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-7 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                    <i class="fas fa-gift"></i> Kids Activities
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-12 md:col-span-4">
+                    <div class="shadow-lg">
+                        <img class="rounded-t-lg"
+                             src="http://christmas-2021.local/wp-content/uploads/2021/11/FTG-Experience-Thumbnail.jpg"
+                             alt="">
+                        <div class="bg-red text-center text-white py-10 rounded-b-lg">
+                            <h3 class="text-2xl font-bold uppercase">Things To Do</h3>
+                            <a href="#">
+                                <button class="mx-auto lg:mx-0 border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-7 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                    <i class="fas fa-gift"></i> See All Activities
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-12 md:col-span-4">
+                    <img class="hidden lg:block"
+                         src="http://christmas-2021.local/wp-content/uploads/2021/11/Single-Person-1.png" alt="">
+                </div>
+
             </div>
         </div>
     </div>
