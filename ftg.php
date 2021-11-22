@@ -52,9 +52,9 @@ get_header(); ?>
     <div id="particles-js"></div>
 
     <div class="bg-no-repeat bg-scroll bg-cover relative" style="background:
-    url('http://christmas-2021.local/wp-content/uploads/2021/11/AFC-Background-Banner.jpg') bottom center; height: 90vh;">
+    url('http://christmas-2021.local/wp-content/uploads/2021/11/AFC-Background-Banner.jpg') no-repeat bottom center scroll; background-size: cover; height: 90vh;">
         <div class=" invisible md:visible bg-no-repeat bg-scroll bg-cover relative" style="background:
-    url('http://christmas-2021.local/wp-content/uploads/2021/11/All-People.png') bottom center; height: 90vh;">
+    url('http://christmas-2021.local/wp-content/uploads/2021/11/All-People.png') no-repeat bottom center scroll; background-size: cover; height: 90vh;">
             <div class="visible text-left relative pt-10 px-3 z-5">
                 <h1 class="uppercase text-red text-6xl lg:text-8xl font-black leading-ish">You Belong here</h1>
                 <p class="capitalize text-red font-bold text-lg lg:text-2xl  pr-10">We’d love to see you and your

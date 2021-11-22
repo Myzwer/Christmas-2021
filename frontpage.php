@@ -50,8 +50,7 @@ get_header(); ?>
 
     <div id="particles-js"></div>
     <div class="bg-no-repeat bg-scroll bg-cover relative" style="background:
-    url('http://christmas-2021.local/wp-content/uploads/2021/11/AFC-Background-Banner.jpg') bottom center;
- height: 70vh;">
+    url('http://christmas-2021.local/wp-content/uploads/2021/11/AFC-Background-Banner.jpg') no-repeat bottom center scroll; background-size: cover; height: 70vh;">
         <div class="text-center relative pt-24 lg:p-36 z-5">
             <img class="mx-auto w-11/12 md:w-8/12 lg:w-5/12"
                  src="http://christmas-2021.local/wp-content/uploads/2021/11/A-Foothills-Christmas-Icon-Alt.png" alt="">
@@ -69,7 +68,7 @@ get_header(); ?>
     </div>
 
     <div class="bg-no-repeat bg-scroll bg-cover relative pb-10" style="background:
-    url('http://christmas-2021.local/wp-content/uploads/2021/11/Home-Noise-Background.jpg') bottom center;">
+    url('http://christmas-2021.local/wp-content/uploads/2021/11/Home-Noise-Background.jpg') no-repeat bottom center scroll; background-size: cover; ">
         <div class="grid grid-cols-12 gap-4 lg:gap-4 lg:w-7/12 mx-4 lg:mx-auto pt-10 text-white">
             <div class="col-span-12 md:col-span-6 bg-red rounded-lg shadow-xl p-4 z-5">
                 <div class="border-2 rounded-md">
