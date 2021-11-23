@@ -17,10 +17,10 @@
 <!--Start Footer-->
 <footer class="footer">
     <div class="footer-icons">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><img src="https://foothillschristmas.com/wp-content/uploads/2021/11/Footer-Icon.png" alt=""></a>
+        <a href="https://www.facebook.com/foothillschurchTN"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/foothillschurch?lang=en"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/foothillschurchtn/?hl=en"><i class="fa fa-instagram"></i></a>
+        <a href="http://foothillschurch.com/"><img src="https://foothillschristmas.com/wp-content/uploads/2021/11/Footer-Icon.png" alt=""></a>
     </div>
 
     <!--Wordpress Generated Link Lists-->
