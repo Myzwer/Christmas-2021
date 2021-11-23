@@ -19,28 +19,35 @@ get_header(); ?>
             <div class="modal">
                 <div class="modal-content">
                     <div class="modal-top bg-no-repeat bg-scroll bg-cover relative"
-                         style="background: url('http://christmas-2021.local/wp-content/uploads/2021/11/Modal-header.jpg') center center;">
+                         style="background: url('<?php the_field('modal_background'); ?>') center center;">
 
                         <div class="modal-icon">
-                            <img src="http://christmas-2021.local/wp-content/uploads/2021/11/FC-logo-1.png" alt="">
+                            <img src="<?php the_field('modal_icon'); ?>" alt="">
                         </div>
                     </div>
                     <div class="modal-inner">
-                        <p class="pb-5">You can add the event to you calendar now or get more information. We can't wait
-                            to see
-                            you!</p>
-                        <a download
-                           href="http://christmas-2021.local/wp-content/uploads/2021/11/afoothillschristmas.ics">
-                            <button class="mx-auto lg:mx-0 w-full bg-yellow text-black font-bold rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                                <i class="far fa-calendar-alt"></i> Add To Calendar
-                            </button>
-                        </a>
+                        <p class="pb-5"><?php the_field('modal_text'); ?></p>
 
-                        <a href="#">
-                            <button class="mx-auto lg:mx-0 w-full border-black border-2 text-black font-bold rounded-full my-1 md:my-1 py-3 px-6 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                                More Information
-                            </button>
-                        </a>
+                        <?php if (have_rows('main_button')): ?>
+                            <?php while (have_rows('main_button')): the_row(); ?>
+                                <a download
+                                   href="<?php the_sub_field('button_download'); ?>">
+                                    <button class="mx-auto lg:mx-0 w-full bg-yellow text-black font-bold rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                        <?php the_sub_field('button_text'); ?>
+                                    </button>
+                                </a>
+                            <?php endwhile; ?>
+                        <?php endif; ?>
+
+                        <?php if (have_rows('secondary_button')): ?>
+                            <?php while (have_rows('secondary_button')): the_row(); ?>
+                                <a href="<?php the_sub_field('button_link'); ?>">
+                                    <button class="mx-auto lg:mx-0 w-full border-black border-2 text-black font-bold rounded-full my-1 md:my-1 py-3 px-6 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                        <?php the_sub_field('button_text'); ?>
+                                    </button>
+                                </a>
+                            <?php endwhile; ?>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
@@ -51,10 +58,10 @@ get_header(); ?>
     <div id="particles-js"></div>
 
     <div class="bg-no-repeat bg-scroll bg-cover relative" style="background:
-    url('http://christmas-2021.local/wp-content/uploads/2021/11/AFC-Background-Banner.jpg') no-repeat bottom center scroll; background-size: cover; height: 90vh;">
+            url('<?php the_field('background_image'); ?>') no-repeat bottom center scroll; background-size: cover; height: 90vh;">
         <div class="visible text-left relative pt-10 px-3 md:pl-10 z-5">
-            <h1 class="uppercase text-red text-5xl lg:text-6xl font-black leading-ish">Free parent resource</h1>
-            <p class="capitalize text-red font-bold text-lg lg:text-2xl pr-10">5 ways you can talk to you child about the Christmas Season</p>
+            <h1 class="uppercase text-red text-5xl lg:text-6xl font-black leading-ish"><?php the_field('header_title'); ?></h1>
+            <p class="capitalize text-red font-bold text-lg lg:text-2xl pr-10"><?php the_field('header_subtitle'); ?></p>
             <div class="grid grid-cols-12 gap-4 lg:gap-4 py-4 text-black">
                 <div class="col-span-12 md:col-span-4 z-5">
                     <?php if (have_posts()) : while (have_posts()) : the_post();
@@ -67,11 +74,11 @@ get_header(); ?>
             </div>
         </div>
         <img class="hidden lg:block absolute left-36 bottom-3 z-5"
-             src="http://christmas-2021.local/wp-content/uploads/2021/11/Guy-with-Boxes.png" alt="">
+             src="<?php the_field('rando_1'); ?>" alt="">
         <img class="hidden lg:block absolute right-36 bottom-3 z-5"
-             src="http://christmas-2021.local/wp-content/uploads/2021/11/GIrl-with-Bags.png" alt="">
+             src="<?php the_field('rando_2'); ?>" alt="">
         <img class="hidden lg:block absolute right-1/2 bottom-3 z-5"
-             src="http://christmas-2021.local/wp-content/uploads/2021/11/GIrl-with-Bags.png" alt="">
+             src="<?php the_field('rando_3'); ?>" alt="">
     </div>
 
     <div class="bg-red p-5 relative">
@@ -81,19 +88,16 @@ get_header(); ?>
 
                     <div class="col-span-12 md:col-span-4 px-4 z-5">
                         <img class="rounded-md shadow-lg"
-                             src="http://christmas-2021.local/wp-content/uploads/2021/11/Kids-Main-Invite-Section.jpg"
+                             src="<?php the_field('invite_image'); ?>"
                              alt="">
                     </div>
                     <div class="col-span-12 md:col-span-8 px-4 md:pt-10 z-5 relative">
                         <div class="content-middle-medium">
-                            <h2 class="text-lg md:text-2xl lg:text-4xl uppercase font-black text-left">Don’t let your
-                                kids miss out!</h2>
-                            <p class="text-md mb-2">Your kids are not going to want to miss A Foothills Christmas. On
-                                top of hot chocolate and Moonshine Mountain cookies, FC Kids will have some special
-                                reindeer-themed activities that they won't forget!</p>
+                            <h2 class="text-lg md:text-2xl lg:text-4xl uppercase font-black text-left"><?php the_field('invite_title'); ?></h2>
+                            <p class="text-md mb-2"><?php the_field('invite_blurb'); ?></p>
                             <button id="two"
                                     class="button mx-auto lg:mx-0 bg-yellow text-black rounded-full my-1 md:my-1 py-2 px-3 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
-                                Mark Your Calendar <i class="far fa-calendar-alt"></i>
+                                <?php the_field('button_title_1'); ?>
                             </button>
                         </div>
                     </div>
@@ -109,20 +113,19 @@ get_header(); ?>
 
                     <div class="col-span-12 md:col-span-8 px-4 md:pt-10 z-5 relative">
                         <div class="content-middle-medium">
-                            <h2 class="text-lg md:text-2xl lg:text-4xl uppercase font-black text-left">Jingle Jam
-                                2021</h2>
-                            <p class="text-md mb-2">Jingle Jam will be an unforgettable Christmas experience complete
-                                with fun, games, music, and lights! This will be an evening full of laughs, games,
-                                prizes, and Christmas cheer! We can't wait to see you there!</p>
-                            <button class="mx-auto lg:mx-0 border-white border-2 text-white font-light rounded-full my-1 md:my-1 py-1 px-7 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                                <i class="fas fa-external-link-alt"></i> View Event
-                            </button>
+                            <h2 class="text-lg md:text-2xl lg:text-4xl uppercase font-black text-left"><?php the_field('jingle_jam_title'); ?></h2>
+                            <p class="text-md mb-2"><?php the_field('jingle_jam_blurb'); ?></p>
+                            <a href="<?php the_field('jingle_jam_button_link'); ?>" target="_blank">
+                                <button class="mx-auto lg:mx-0 border-white border-2 text-white font-light rounded-full my-1 md:my-1 py-1 px-7 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                    <?php the_field('jingle_jam_button_title'); ?>
+                                </button>
+                            </a>
                         </div>
                     </div>
 
                     <div class="col-span-12 md:col-span-4 px-4 z-5">
                         <img class="rounded-md shadow-lg"
-                             src="http://christmas-2021.local/wp-content/uploads/2021/11/Kids-Jingle-Jam-Section.jpg"
+                             src="<?php the_field('jingle_jam_image'); ?>"
                              alt="">
                     </div>
 
