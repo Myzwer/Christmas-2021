@@ -55,8 +55,11 @@ get_header(); ?>
     </div>
     <!--End Modal-->
 
+    <!-- Start Particles-->
     <div id="particles-js"></div>
+    <!-- End Particles -->
 
+    <!-- Start Header -->
     <div class="bg-no-repeat bg-scroll bg-cover relative" style="background:
             url('<?php the_field('background_image'); ?>') no-repeat bottom center scroll; background-size: cover; height: 90vh;">
         <div class="visible text-left relative pt-10 px-3 md:pl-10 z-5">
@@ -80,7 +83,9 @@ get_header(); ?>
         <img class="hidden lg:block absolute right-1/2 bottom-3 z-5"
              src="<?php the_field('rando_3'); ?>" alt="">
     </div>
+    <!-- End Header -->
 
+    <!-- Start Invite Section -->
     <div class="bg-red p-5 relative">
         <div class="lg:w-9/12 mx-auto">
             <div class="border-2 border-white rounded-md md:p-5">
@@ -105,7 +110,9 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End Invite Section -->
 
+    <!-- Start Jingle Jam -->
     <div class="bg-green p-5 relative">
         <div class="lg:w-9/12 mx-auto">
             <div class="border-2 border-white rounded-md md:p-5">
@@ -133,6 +140,7 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End Jingle Jam -->
 
 <?php
 get_footer();

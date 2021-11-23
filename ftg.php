@@ -57,8 +57,11 @@ get_header(); ?>
     </div>
     <!--End Modal-->
 
+    <!-- Start Particles -->
     <div id="particles-js"></div>
+    <!-- End Particles -->
 
+    <!-- Start Header-->
     <div class="bg-no-repeat bg-scroll bg-cover relative" style="background:
             url('<?php the_field('background_image'); ?>') no-repeat bottom center scroll; background-size: cover; height: 90vh;">
         <div class=" invisible md:visible bg-no-repeat bg-scroll bg-cover relative" style="background:
@@ -69,7 +72,9 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End Header -->
 
+    <!-- Start Free Gift -->
     <div class="bg-red p-5 relative">
         <div class="lg:w-9/12 mx-auto">
             <div class="border-2 border-white rounded-md md:p-5">
@@ -90,7 +95,9 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End Free Gift -->
 
+    <!-- Start Invite Section-->
     <div class="bg-white py-5 relative">
         <div class="lg:w-9/12 mx-auto relative">
             <div class="grid grid-cols-12 gap-4 p-5">
@@ -115,7 +122,9 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End Invite Section -->
 
+    <!-- Start Directions / Map -->
     <div class="bg-green py-5 relative">
         <div class="lg:w-9/12 mx-auto relative text-white">
             <div class="grid grid-cols-12 gap-4 p-5">
@@ -178,7 +187,9 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End Map / Directions -->
 
+    <!-- Start FAQ -->
     <div class="bg-white py-5">
         <div class="lg:w-9/12 mx-auto">
             <div class="grid grid-cols-12 gap-4 p-5">
@@ -200,7 +211,9 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End FAQ -->
 
+    <!-- Start Footer Cards -->
     <div class="bg-green relative py-10">
         <div class="lg:w-10/12 mx-auto">
             <div class="grid grid-cols-12 gap-4 lg:gap-10 mx-4 text-black">
@@ -252,6 +265,7 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End Footer Cards -->
 
 
 <?php

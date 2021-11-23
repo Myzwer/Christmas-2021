@@ -55,8 +55,11 @@ get_header(); ?>
     </div>
     <!--End Modal-->
 
-
+    <!-- Start Particles-->
     <div id="particles-js"></div>
+    <!-- End particles -->
+
+    <!-- Start Header -->
     <div class="bg-no-repeat bg-scroll bg-cover relative" style="background:
             url('<?php the_field('background_image'); ?>') no-repeat bottom center scroll; background-size: cover; height: 70vh;">
         <div class="text-center relative pt-24 lg:p-36 z-5">
@@ -73,7 +76,9 @@ get_header(); ?>
         <img class="hidden lg:block absolute right-36 bottom-3 z-5"
              src="<?php the_field('rando_2'); ?>" alt="">
     </div>
+    <!-- End Header -->
 
+    <!-- Start Detail Cards -->
     <div class="bg-no-repeat bg-scroll bg-cover relative pb-10" style="background:
             url('<?php the_field('card_background'); ?>') no-repeat bottom center scroll; background-size: cover; ">
         <div class="grid grid-cols-12 gap-4 lg:gap-4 lg:w-7/12 mx-4 lg:mx-auto pt-10 text-white">
@@ -142,7 +147,9 @@ get_header(); ?>
             <?php endif; ?>
         </div>
     </div>
+    <!-- End Detail Cards -->
 
+    <!-- Start Form -->
     <div class="bg-white relative">
         <div class="lg:w-7/12 mx-auto relative">
             <img class="absolute tree-girl"
@@ -164,7 +171,9 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End Form -->
 
+    <!-- Start Footer Cards-->
     <div class="bg-green relative py-10">
         <div class="lg:w-10/12 mx-auto">
             <div class="grid grid-cols-12 gap-4 lg:gap-10 mx-4 text-black">
@@ -231,6 +240,7 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End Footer Cards -->
 
 
 <?php

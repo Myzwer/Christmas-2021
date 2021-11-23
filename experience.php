@@ -55,8 +55,11 @@ get_header(); ?>
     </div>
     <!--End Modal-->
 
+    <!-- Start Particles -->
     <div id="particles-js"></div>
+    <!-- End Particles -->
 
+    <!-- Start Header -->
     <div class="bg-no-repeat bg-scroll bg-cover relative" style="background:
             url('<?php the_field('background_image'); ?>') no-repeat bottom center scroll; background-size: cover; height: 90vh;">
         <div class=" invisible md:visible bg-no-repeat bg-scroll bg-cover relative" style="background:
@@ -71,7 +74,9 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End Header -->
 
+    <!-- Start Invite Section -->
     <div class="bg-white py-5 relative">
         <div class="lg:w-9/12 mx-auto relative">
             <div class="grid grid-cols-12 gap-4 p-5">
@@ -126,7 +131,9 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End Invite Section -->
 
+    <!-- Start About Cards -->
     <div class="bg-green relative py-10">
         <div class="lg:w-10/12 mx-auto">
             <div class="grid grid-cols-12 gap-4 lg:gap-10 mx-4 text-black">
@@ -169,7 +176,9 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End About Cards -->
 
+    <!-- Start Download Section-->
     <div class="bg-red p-5 relative">
         <div class="lg:w-9/12 mx-auto">
             <div class="border-2 border-white rounded-md md:p-5">
@@ -195,7 +204,9 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End Download Section -->
 
+    <!-- Start Footer Cards -->
     <div class="bg-green relative py-10">
         <div class="lg:w-8/12 mx-auto">
             <div class="grid grid-cols-12 gap-4 lg:gap-10 mx-4 text-black">
@@ -248,6 +259,7 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End Footer Cards -->
 
 
 <?php
