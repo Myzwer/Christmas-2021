@@ -22,7 +22,7 @@ get_header(); ?>
                          style="background: url('<?php the_field('modal_background'); ?>') center center;">
 
                         <div class="modal-icon">
-                            <img src="<?php the_field('modal_icon'); ?>" alt="">
+                            <img src="<?php the_field('modal_icon'); ?>" alt="Foothills Church Icon">
                         </div>
                     </div>
                     <div class="modal-inner">
@@ -64,7 +64,7 @@ get_header(); ?>
             url('<?php the_field('background_image'); ?>') no-repeat bottom center scroll; background-size: cover; height: 70vh;">
         <div class="text-center relative pt-24 lg:p-36 z-5">
             <img class="mx-auto w-11/12 md:w-8/12 lg:w-5/12"
-                 src="<?php the_field('afc_logo'); ?>" alt="">
+                 src="<?php the_field('afc_logo'); ?>" alt="A Foothills Christmas Logo">
             <h1 class="uppercase text-red text-2xl md:text-3xl py-5 px-10 z-5"><?php the_field('tagline'); ?></h1>
             <button id="two"
                     class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
@@ -72,9 +72,9 @@ get_header(); ?>
             </button>
         </div>
         <img class="hidden lg:block absolute left-36 bottom-3 z-5"
-             src="<?php the_field('rando_1'); ?>" alt="">
+             src="<?php the_field('rando_1'); ?>" alt="Man with boxes">
         <img class="hidden lg:block absolute right-36 bottom-3 z-5"
-             src="<?php the_field('rando_2'); ?>" alt="">
+             src="<?php the_field('rando_2'); ?>" alt="Female with Box and bag">
     </div>
     <!-- End Header -->
 
@@ -153,7 +153,7 @@ get_header(); ?>
     <div class="bg-white relative">
         <div class="lg:w-7/12 mx-auto relative">
             <img class="absolute tree-girl"
-                 src="<?php the_field('form_rando'); ?>" alt="">
+                 src="<?php the_field('form_rando'); ?>" alt="Girl Carrying Tree">
             <div class="grid grid-cols-12 gap-4 mx-2 text-black">
                 <div class="col-span-12 md:col-span-8 px-4 pt-4 text-left">
                     <h2 class="uppercase text-3xl lg:text-4xl"><?php the_field('form_title'); ?></h2>
@@ -183,7 +183,7 @@ get_header(); ?>
                             <div class="shadow-lg">
                                 <img class="rounded-t-lg"
                                      src="<?php the_sub_field('image'); ?>"
-                                     alt="">
+                                     alt="Crowd at First time guest tent">
                                 <div class="bg-red text-center text-white py-10 rounded-b-lg">
                                     <h3 class="text-2xl font-bold uppercase"><?php the_sub_field('title'); ?></h3>
                                     <a href="<?php the_sub_field('button_link'); ?>">
@@ -203,7 +203,7 @@ get_header(); ?>
                             <div class="shadow-lg">
                                 <img class="rounded-t-lg"
                                      src="<?php the_sub_field('image'); ?>"
-                                     alt="">
+                                     alt="Girl playing with baby">
                                 <div class="bg-red text-center text-white py-10 rounded-b-lg">
                                     <h3 class="text-2xl font-bold uppercase"><?php the_sub_field('title'); ?></h3>
                                     <a href="<?php the_sub_field('button_link'); ?>">
@@ -223,7 +223,7 @@ get_header(); ?>
                             <div class="shadow-lg">
                                 <img class="rounded-t-lg"
                                      src="<?php the_sub_field('image'); ?>"
-                                     alt="">
+                                     alt="Girls laughing by christmas tree">
                                 <div class="bg-red text-center text-white py-10 rounded-b-lg">
                                     <h3 class="text-2xl font-bold uppercase"><?php the_sub_field('title'); ?></h3>
                                     <a href="<?php the_sub_field('button_link'); ?>">

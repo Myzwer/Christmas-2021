@@ -22,7 +22,7 @@ get_header(); ?>
                          style="background: url('<?php the_field('modal_background'); ?>') center center;">
 
                         <div class="modal-icon">
-                            <img src="<?php the_field('modal_icon'); ?>" alt="">
+                            <img src="<?php the_field('modal_icon'); ?>" alt="Foothills Church Icon">
                         </div>
                     </div>
                     <div class="modal-inner">
@@ -76,12 +76,12 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-        <img class="hidden lg:block absolute left-36 bottom-3 z-5"
-             src="<?php the_field('rando_1'); ?>" alt="">
-        <img class="hidden lg:block absolute right-36 bottom-3 z-5"
-             src="<?php the_field('rando_2'); ?>" alt="">
-        <img class="hidden lg:block absolute right-1/2 bottom-3 z-5"
-             src="<?php the_field('rando_3'); ?>" alt="">
+        <img class="hidden lg:block absolute left-36 bottom-3 z-5 w-1/12"
+             src="<?php the_field('rando_1'); ?>" alt="Child in beanie">
+        <img class="hidden lg:block absolute right-36 bottom-3 z-5 w-4/12"
+             src="<?php the_field('rando_2'); ?>" alt="Family decorating tree">
+        <img class="hidden lg:block absolute right-1/2 bottom-3 z-5 w-3/12"
+             src="<?php the_field('rando_3'); ?>" alt="Mom walking with child">
     </div>
     <!-- End Header -->
 
@@ -94,7 +94,7 @@ get_header(); ?>
                     <div class="col-span-12 md:col-span-4 px-4 z-5">
                         <img class="rounded-md shadow-lg"
                              src="<?php the_field('invite_image'); ?>"
-                             alt="">
+                             alt="Girl with smiling baby">
                     </div>
                     <div class="col-span-12 md:col-span-8 px-4 md:pt-10 z-5 relative">
                         <div class="content-middle-medium">
@@ -133,7 +133,7 @@ get_header(); ?>
                     <div class="col-span-12 md:col-span-4 px-4 z-5">
                         <img class="rounded-md shadow-lg"
                              src="<?php the_field('jingle_jam_image'); ?>"
-                             alt="">
+                             alt="Jingle jam 2019 photo">
                     </div>
 
                 </div>

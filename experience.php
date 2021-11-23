@@ -22,7 +22,7 @@ get_header(); ?>
                          style="background: url('<?php the_field('modal_background'); ?>') center center;">
 
                         <div class="modal-icon">
-                            <img src="<?php the_field('modal_icon'); ?>" alt="">
+                            <img src="<?php the_field('modal_icon'); ?>" alt="Foothills Church Circle Icon">
                         </div>
                     </div>
                     <div class="modal-inner">
@@ -143,7 +143,7 @@ get_header(); ?>
                             <div class="shadow-lg">
                                 <img class="rounded-t-lg"
                                      src="<?php the_sub_field('image'); ?>"
-                                     alt="">
+                                     alt="Fresh Chocolate Chip Cookies">
                                 <div class="bg-red text-center text-white py-5 px-5 rounded-b-lg lg:h-64">
                                     <h3 class="text-2xl font-bold uppercase"><?php the_sub_field('title'); ?></h3>
                                     <p class="text-left"><?php the_sub_field('paragraph'); ?></p>
@@ -159,7 +159,7 @@ get_header(); ?>
                             <div class="shadow-lg">
                                 <img class="rounded-t-lg"
                                      src="<?php the_sub_field('image'); ?>"
-                                     alt="">
+                                     alt="Stylized hot cocoa">
                                 <div class="bg-red text-center text-white py-5 px-5 rounded-b-lg lg:h-64">
                                     <h3 class="text-2xl font-bold uppercase"><?php the_sub_field('title'); ?></h3>
                                     <p class="text-left"><?php the_sub_field('paragraph'); ?></p>
@@ -170,8 +170,8 @@ get_header(); ?>
                 <?php endif; ?>
 
                 <div class="col-span-12 md:col-span-4">
-                    <img class="hidden xl:block"
-                         src="<?php the_field('rando_1'); ?>" alt="">
+                    <img class="hidden xl:block mx-auto pt-16"
+                         src="<?php the_field('rando_1'); ?>" alt="Man Carrying Boxes">
                 </div>
             </div>
         </div>
@@ -189,7 +189,7 @@ get_header(); ?>
                             <p class="text-md mb-2"><?php the_field('download_title'); ?></p>
                             <a href="<?php the_field('download_button_link'); ?>" target="_blank">
                                 <button class="mx-auto lg:mx-0 border-white border-2 text-white font-light rounded-full my-1 md:my-1 py-1 px-7 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                                    <?php the_field('download_buton_text'); ?>
+                                    <?php the_field('download_button_text'); ?>
                                 </button>
                             </a>
                         </div>
@@ -198,7 +198,7 @@ get_header(); ?>
                     <div class="col-span-12 md:col-span-5 px-4 z-5">
                         <img class="rounded-md shadow-lg"
                              src="<?php the_field('download_image'); ?>"
-                             alt="">
+                             alt="A Foothills Christmas Brand Photo">
                     </div>
                 </div>
             </div>
@@ -208,12 +208,12 @@ get_header(); ?>
 
     <!-- Start Footer Cards -->
     <div class="bg-green relative py-10">
-        <div class="lg:w-8/12 mx-auto">
+        <div class="lg:w-10/12 mx-auto">
             <div class="grid grid-cols-12 gap-4 lg:gap-10 mx-4 text-black">
 
                 <div class="col-span-12 md:col-span-4">
                     <img class="hidden lg:block"
-                         src="<?php the_field('rando_3'); ?>" alt="">
+                         src="<?php the_field('rando_3'); ?>" alt="Girl with Tree">
                 </div>
 
                 <?php if (have_rows('card_3')): ?>
@@ -222,7 +222,7 @@ get_header(); ?>
                             <div class="shadow-lg">
                                 <img class="rounded-t-lg"
                                      src="<?php the_sub_field('image'); ?>"
-                                     alt="">
+                                     alt="Woman smiling and pointing">
                                 <div class="bg-red text-center text-white py-10 rounded-b-lg">
                                     <h3 class="text-2xl font-bold uppercase"><?php the_sub_field('card_title'); ?></h3>
                                     <a href="<?php the_sub_field('button_link'); ?>">
@@ -242,7 +242,7 @@ get_header(); ?>
                             <div class="shadow-lg">
                                 <img class="rounded-t-lg"
                                      src="<?php the_sub_field('image'); ?>"
-                                     alt="">
+                                     alt="Woman teaching kids">
                                 <div class="bg-red text-center text-white py-10 rounded-b-lg">
                                     <h3 class="text-2xl font-bold uppercase"><?php the_sub_field('card_title'); ?></h3>
                                     <a href="<?php the_sub_field('button_link'); ?>">

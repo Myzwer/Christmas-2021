@@ -13,8 +13,6 @@
 
 get_header(); ?>
 
-    <!--ADD THE ALT TAGS-->
-
     <!-- The Modal -->
     <div id="modal-container">
         <div class="modal-background">
@@ -24,7 +22,7 @@ get_header(); ?>
                          style="background: url('<?php the_field('modal_background'); ?>') center center;">
 
                         <div class="modal-icon">
-                            <img src="<?php the_field('modal_icon'); ?>" alt="">
+                            <img src="<?php the_field('modal_icon'); ?>" alt="Foothills Church Icon">
                         </div>
                     </div>
                     <div class="modal-inner">
@@ -89,7 +87,7 @@ get_header(); ?>
                     <div class="col-span-12 md:col-span-5 px-4 z-5">
                         <img class="rounded-md shadow-lg"
                              src="<?php the_field('gift_picture'); ?>"
-                             alt="">
+                             alt="Foothills Church branded mug">
                     </div>
                 </div>
             </div>
@@ -223,7 +221,7 @@ get_header(); ?>
                             <div class="shadow-lg">
                                 <img class="rounded-t-lg"
                                      src="<?php the_sub_field('image'); ?>"
-                                     alt="">
+                                     alt="Woman smiling at baby">
                                 <div class="bg-red text-center text-white py-10 rounded-b-lg">
                                     <h3 class="text-2xl font-bold uppercase"><?php the_sub_field('title'); ?></h3>
                                     <a href="<?php the_sub_field('button_link'); ?>">
@@ -243,7 +241,7 @@ get_header(); ?>
                             <div class="shadow-lg">
                                 <img class="rounded-t-lg"
                                      src="<?php the_sub_field('image'); ?>"
-                                     alt="">
+                                     alt="Mother and son in sled">
                                 <div class="bg-red text-center text-white py-10 rounded-b-lg">
                                     <h3 class="text-2xl font-bold uppercase"><?php the_sub_field('title'); ?></h3>
                                     <a href="<?php the_sub_field('button_link'); ?>">
@@ -258,8 +256,8 @@ get_header(); ?>
                 <?php endif; ?>
 
                 <div class="col-span-12 md:col-span-4">
-                    <img class="hidden lg:block"
-                         src="<?php the_field('footer_rando'); ?>" alt="">
+                    <img class="hidden lg:block text-center mx-auto"
+                         src="<?php the_field('footer_rando'); ?>" alt="Couple holding tree">
                 </div>
 
             </div>
