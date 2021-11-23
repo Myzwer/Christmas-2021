@@ -20,7 +20,7 @@
         <a href="#"><i class="fa fa-facebook"></i></a>
         <a href="#"><i class="fa fa-twitter"></i></a>
         <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><img src="http://christmas-2021.local/wp-content/uploads/2021/11/Footer-Icon.png" alt=""></a>
+        <a href="#"><img src="https://foothillschristmas.com/wp-content/uploads/2021/11/Footer-Icon.png" alt=""></a>
     </div>
 
     <!--Wordpress Generated Link Lists-->

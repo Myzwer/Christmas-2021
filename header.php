@@ -41,7 +41,7 @@
         <div class="brand">
             <a href="/frontpage">
                 <!--Company Logo / Branding. Template supports both Text and Logo-->
-                <img src="http://christmas-2021.local/wp-content/uploads/2021/11/FC-logo-1.png"
+                <img src="https://foothillschristmas.com/wp-content/uploads/2021/11/FC-logo-1.png"
                      alt="FC Circle Logo">
             </a>
         </div>
