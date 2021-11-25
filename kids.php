@@ -61,7 +61,7 @@ get_header(); ?>
 
     <!-- Start Header -->
     <div class="bg-no-repeat bg-scroll bg-cover relative" style="background:
-            url('<?php the_field('background_image'); ?>') no-repeat bottom center scroll; background-size: cover; height: 90vh;">
+            url('<?php the_field('background_image'); ?>') no-repeat bottom center scroll; background-size: cover; height: 100vh;">
         <div class="visible text-left relative pt-10 px-3 md:pl-10 z-5">
             <h1 class="uppercase text-red text-5xl lg:text-6xl font-black leading-ish"><?php the_field('header_title'); ?></h1>
             <p class="capitalize text-red font-bold text-lg lg:text-2xl pr-10"><?php the_field('header_subtitle'); ?></p>
