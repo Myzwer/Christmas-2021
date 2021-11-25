@@ -186,7 +186,7 @@ get_header(); ?>
                     <div class="col-span-12 md:col-span-7 px-4 md:pt-10 z-5 relative">
                         <div class="content-middle-medium">
                             <h2 class="text-lg md:text-2xl lg:text-4xl uppercase font-black text-left"><?php the_field('download_title'); ?></h2>
-                            <p class="text-md mb-2"><?php the_field('download_title'); ?></p>
+                            <p class="text-md mb-2"><?php the_field('download_subtitle'); ?></p>
                             <a href="<?php the_field('download_button_link'); ?>" target="_blank">
                                 <button class="mx-auto lg:mx-0 border-white border-2 text-white font-light rounded-full my-1 md:my-1 py-1 px-7 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                                     <?php the_field('download_button_text'); ?>
@@ -212,7 +212,7 @@ get_header(); ?>
             <div class="grid grid-cols-12 gap-4 lg:gap-10 mx-4 text-black">
 
                 <div class="col-span-12 md:col-span-4">
-                    <img class="hidden lg:block"
+                    <img class="hidden lg:block mx:auto"
                          src="<?php the_field('rando_3'); ?>" alt="Girl with Tree">
                 </div>
 

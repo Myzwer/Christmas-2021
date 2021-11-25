@@ -39,7 +39,7 @@
 <section class="navigation">
     <div class="nav-container">
         <div class="brand">
-            <a href="/frontpage">
+            <a href="/">
                 <!--Company Logo / Branding. Template supports both Text and Logo-->
                 <img src="https://foothillschristmas.com/wp-content/uploads/2021/11/FC-logo-1.png"
                      alt="FC Circle Logo">

@@ -110,10 +110,18 @@ get_header(); ?>
                         <div class="col-span-12 md:col-span-6 pb-5">
                             <h4 class="font-black text-2xl"><?php the_field('l1'); ?></h4>
                             <p><?php the_field('l1_time'); ?></p>
+                            <button id="three"
+                                    class="button mx-auto lg:mx-0 bg-yellow text-black rounded-full my-1 md:my-1 py-2 px-3 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
+                                <?php the_field('calendar_button_1'); ?>
+                            </button>
                         </div>
                         <div class="col-span-12 md:col-span-6">
                             <h4 class="font-black text-2xl"><?php the_field('l2'); ?></h4>
                             <p><?php the_field('l2_time'); ?></p>
+                            <button id="four"
+                                    class="button mx-auto lg:mx-0 bg-yellow text-black rounded-full my-1 md:my-1 py-2 px-3 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
+                                <?php the_field('calendar_button_1'); ?>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -145,11 +153,7 @@ get_header(); ?>
                                     <h4 class="font-black text-2xl"><?php the_sub_field('location_title'); ?></h4>
                                     <p><?php the_sub_field('location_address'); ?></p>
                                     <div class="text-left mb-5">
-                                        <button id="three"
-                                                class="button mx-auto lg:mx-0 bg-yellow text-black rounded-full my-1 md:my-1 py-2 px-3 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
-                                            <?php the_sub_field('primary_button_title'); ?>
-                                        </button>
-                                        <a class="md:pl-2" href="<?php the_sub_field('secondary_button_link'); ?>"
+                                        <a class= href="<?php the_sub_field('secondary_button_link'); ?>"
                                            target="_blank">
                                             <button class="mx-auto lg:mx-0 border-white border-2 text-white font-light rounded-full my-1 md:my-1 py-1 px-7 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                                                 <?php the_sub_field('secondary_button_title'); ?>
@@ -166,11 +170,7 @@ get_header(); ?>
                                     <h4 class="font-black text-2xl"><?php the_sub_field('location_title'); ?></h4>
                                     <p><?php the_sub_field('location_address'); ?></p>
                                     <div class="text-left mb-5">
-                                        <button id="three"
-                                                class="button mx-auto lg:mx-0 bg-yellow text-black rounded-full my-1 md:my-1 py-2 px-3 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
-                                            <?php the_sub_field('primary_button_title'); ?>
-                                        </button>
-                                        <a class="md:pl-2" href="<?php the_sub_field('secondary_button_link'); ?>"
+                                        <a href="<?php the_sub_field('secondary_button_link'); ?>"
                                            target="_blank">
                                             <button class="mx-auto lg:mx-0 border-white border-2 text-white font-light rounded-full my-1 md:my-1 py-1 px-7 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                                                 <?php the_sub_field('secondary_button_title'); ?>
