@@ -48,7 +48,7 @@
 
         <nav>
             <div class="nav-mobile">
-                <a id="nav-toggle" href="#!"><span></span></a>
+                <a id="nav-toggle" href="#!" aria-label="Hamburger Menu"><span></span></a>
             </div>
 
             <!-- Start Wordpress-->
