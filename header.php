@@ -39,16 +39,16 @@
 <section class="navigation">
     <div class="nav-container">
         <div class="brand">
-            <a href="/frontpage">
+            <a href="/">
                 <!--Company Logo / Branding. Template supports both Text and Logo-->
-                <img src="https://images.squarespace-cdn.com/content/v1/575a6067b654f9b902f452f4/1552683653140-0UUVQSSUEWVC73AWAEQG/300Logo.png"
-                     alt="Company Logo">
+                <img src="https://foothillschristmas.com/wp-content/uploads/2021/11/FC-logo-1.png"
+                     alt="FC Circle Logo">
             </a>
         </div>
 
         <nav>
             <div class="nav-mobile">
-                <a id="nav-toggle" href="#!"><span></span></a>
+                <a id="nav-toggle" href="#!" aria-label="Hamburger Menu"><span></span></a>
             </div>
 
             <!-- Start Wordpress-->
