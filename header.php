@@ -42,7 +42,7 @@
             <a href="/">
                 <!--Company Logo / Branding. Template supports both Text and Logo-->
                 <img src="<?php the_field('header_image_wp', 'options'); ?>"
-                     alt="FC Circle Logo">
+                     alt="FC Circle Logo" height="70" width="70">
             </a>
         </div>
 
