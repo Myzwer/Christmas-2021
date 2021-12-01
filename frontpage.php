@@ -151,7 +151,7 @@ get_header(); ?>
 
     <!-- Start Form -->
     <div class="bg-white relative">
-        <div class="lg:w-7/12 mx-auto relative">
+        <div class="lg:w-7/12 mx-auto relative min-height-form ">
             <img class="absolute tree-girl"
                  src="<?php the_field('form_rando'); ?>" alt="Girl Carrying Tree">
             <div class="grid grid-cols-12 gap-4 mx-2 text-black">
