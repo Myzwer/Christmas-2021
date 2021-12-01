@@ -51,3 +51,8 @@ canvas {
 .qa a {
   color: #ca453d;
 }
+
+// tailwind generates this but it gets stripped out in prod
+.text-green {
+  color: #1d5134;
+}
