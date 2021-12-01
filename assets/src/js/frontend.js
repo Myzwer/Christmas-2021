@@ -53,10 +53,10 @@ jQuery(document).ready(function ($) {
   };
 })(jQuery); // end jQuery
 
-const myEle = document.getElementById("particles-js");
-if (myEle) {
-  // PARTICLES
-  document.addEventListener("DOMContentLoaded", function (event) {
+// PARTICLES
+document.addEventListener("DOMContentLoaded", function (event) {
+  const particles = document.getElementById("particles-js");
+  if (particles) {
     particlesJS("particles-js", {
       particles: {
         number: { value: 400, density: { enable: true, value_area: 800 } },
@@ -118,5 +118,5 @@ if (myEle) {
       },
       retina_detect: true,
     });
-  });
-}
+  }
+});
