@@ -81,10 +81,10 @@ get_header(); ?>
     <!-- Start Detail Cards -->
     <div class="bg-no-repeat bg-scroll bg-cover relative pb-10" style="background:
             url('<?php the_field('card_background'); ?>') no-repeat bottom center scroll; background-size: cover; ">
-        <div class="grid grid-cols-12 gap-4 lg:gap-4 lg:w-7/12 mx-4 lg:mx-auto pt-10 text-white">
+        <div class="grid grid-cols-12 gap-4 lg:gap-4 lg:w-8/12 mx-4 lg:mx-auto pt-10 text-white">
             <?php if (have_rows('maryville_card')): ?>
                 <?php while (have_rows('maryville_card')): the_row(); ?>
-                    <div class="col-span-12 md:col-span-6 bg-red rounded-lg shadow-xl p-4 z-5">
+                    <div class="col-span-12 xl:col-span-6 bg-red rounded-lg shadow-xl p-4 z-5">
                         <div class="border-2 rounded-md">
                             <div class="text-left uppercase p-2">
                                 <h2 class=" text-xl text-center pb-5"><?php the_sub_field('top_title'); ?></h2>
@@ -95,13 +95,13 @@ get_header(); ?>
                                 </p>
                             </div>
                             <div class="text-center mb-5">
-                                <div class="block">
+                                <div class="inline lg:pr-2">
                                     <button id="three"
                                             class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-3 px-5 md:px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
                                         <?php the_sub_field('btn_1_text'); ?>
                                     </button>
                                 </div>
-                                <div class="block">
+                                <div class="inline">
                                     <a href="<?php the_sub_field('btn_2_link'); ?>">
                                         <button class="mx-auto lg:mx-0  border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-6 md:px-6 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                                             <?php the_sub_field('btn_2_text'); ?>
@@ -116,7 +116,7 @@ get_header(); ?>
 
             <?php if (have_rows('bearden_card')): ?>
                 <?php while (have_rows('bearden_card')): the_row(); ?>
-                    <div class="col-span-12 md:col-span-6 bg-green rounded-lg shadow-xl p-4 z-5">
+                    <div class="col-span-12 xl:col-span-6 bg-green rounded-lg shadow-xl p-4 z-5">
                         <div class="border-2 rounded-md">
                             <div class="text-left uppercase p-2">
                                 <h2 class=" text-xl text-center pb-5"><?php the_sub_field('top_title'); ?></h2>
@@ -127,13 +127,13 @@ get_header(); ?>
                                 </p>
                             </div>
                             <div class="text-center mb-5">
-                                <div class="block">
+                                <div class="inline lg:pr-2">
                                     <button id="four"
                                             class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-3 px-5 md:px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
                                         <?php the_sub_field('btn_1_text'); ?>
                                     </button>
                                 </div>
-                                <div class="block">
+                                <div class="inline">
                                     <a href="<?php the_sub_field('btn_2_link'); ?>">
                                         <button class="mx-auto lg:mx-0  border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-6 md:px-6 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                                             <?php the_sub_field('btn_2_text'); ?>
@@ -151,7 +151,7 @@ get_header(); ?>
 
     <!-- Start Form -->
     <div class="bg-white relative">
-        <div class="lg:w-7/12 mx-auto relative">
+        <div class="lg:w-7/12 mx-auto relative min-height-form ">
             <img class="absolute tree-girl"
                  src="<?php the_field('form_rando'); ?>" alt="Girl Carrying Tree">
             <div class="grid grid-cols-12 gap-4 mx-2 text-black">

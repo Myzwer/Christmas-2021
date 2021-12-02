@@ -20,7 +20,7 @@
         <a href="https://www.facebook.com/foothillschurchTN" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
         <a href="https://twitter.com/foothillschurch?lang=en" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
         <a href="https://www.instagram.com/foothillschurchtn/?hl=en" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
-        <a href="http://foothillschurch.com/" aria-label="Foothills Church Website"><img src="https://foothillschristmas.com/wp-content/uploads/2021/11/Footer-Icon.png" alt=""></a>
+        <a href="http://foothillschurch.com/" aria-label="Foothills Church Website"><img src="<?php the_field('footer_icon_wp', 'options'); ?>" alt="Foothills Church Icon"></a>
     </div>
 
     <!--Wordpress Generated Link Lists-->

@@ -23,7 +23,7 @@
     <link rel="profile" href="https://gmpg.org/xfn/11">
 
     <!--Font Awesome Loadin-->
-    <script src="https://kit.fontawesome.com/aa36ddf53c.js" crossorigin="anonymous"></script>
+    <script defer src="https://kit.fontawesome.com/aa36ddf53c.js" crossorigin="anonymous"></script>
 
     <!--Wordpress Required Stuff-->
     <?php wp_head(); ?>
@@ -41,8 +41,8 @@
         <div class="brand">
             <a href="/">
                 <!--Company Logo / Branding. Template supports both Text and Logo-->
-                <img src="https://foothillschristmas.com/wp-content/uploads/2021/11/FC-logo-1.png"
-                     alt="FC Circle Logo">
+                <img src="<?php the_field('header_image_wp', 'options'); ?>"
+                     alt="FC Circle Logo" height="70" width="70">
             </a>
         </div>
 
