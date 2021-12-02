@@ -62,7 +62,7 @@ get_header(); ?>
     <!-- Start Header -->
     <div class="bg-no-repeat bg-scroll bg-cover relative" style="background:
             url('<?php the_field('background_image'); ?>') no-repeat bottom center scroll; background-size: cover; height: 90vh;">
-        <div class=" invisible md:visible bg-no-repeat bg-scroll bg-cover relative" style="background:
+        <div class=" invisible md:visible bg-no-repeat bg-scroll bg-cover relative z-5" style="background:
                 url('<?php the_field('background_randos'); ?>') no-repeat bottom center scroll; background-size: cover; height: 90vh;">
             <div class="visible text-left relative pt-10 px-3 z-5">
                 <h1 class="uppercase text-red text-6xl lg:text-6xl font-black leading-ish"><?php the_field('header_title'); ?></h1>
