@@ -112,35 +112,7 @@ get_header(); ?>
     </div>
     <!-- End Invite Section -->
 
-    <!-- Start Jingle Jam -->
-    <div class="bg-green p-5 relative">
-        <div class="lg:w-9/12 mx-auto">
-            <div class="border-2 border-white rounded-md md:p-5">
-                <div class="grid grid-cols-12 gap-4 lg:gap-4 py-4 text-white">
 
-                    <div class="col-span-12 md:col-span-8 px-4 md:pt-10 z-5 relative">
-                        <div class="content-middle-medium">
-                            <h2 class="text-lg md:text-2xl lg:text-4xl uppercase font-black text-left"><?php the_field('jingle_jam_title'); ?></h2>
-                            <p class="text-md mb-2"><?php the_field('jingle_jam_blurb'); ?></p>
-                            <a href="<?php the_field('jingle_jam_button_link'); ?>" target="_blank">
-                                <button class="mx-auto lg:mx-0 border-white border-2 text-white font-light rounded-full my-1 md:my-1 py-1 px-7 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                                    <?php the_field('jingle_jam_button_title'); ?>
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-span-12 md:col-span-4 px-4 z-5">
-                        <img class="rounded-md shadow-lg"
-                             src="<?php the_field('jingle_jam_image'); ?>"
-                             alt="Jingle jam 2019 photo">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Jingle Jam -->
 
 <?php
 get_footer();
