@@ -66,10 +66,6 @@ get_header(); ?>
             <img class="mx-auto w-11/12 md:w-8/12 lg:w-5/12"
                  src="<?php the_field('afc_logo'); ?>" alt="A Foothills Christmas Logo">
             <h1 class="uppercase text-red text-2xl md:text-3xl py-5 px-10 z-5"><?php the_field('tagline'); ?></h1>
-            <button id="two"
-                    class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-4 px-5 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
-                <?php the_field('main_cta'); ?>
-            </button>
         </div>
         <img class="hidden lg:block absolute left-36 bottom-3 z-5"
              src="<?php the_field('rando_1'); ?>" alt="Man with boxes">
@@ -88,22 +84,21 @@ get_header(); ?>
                         <div class="border-2 rounded-md">
                             <div class="text-left uppercase p-2">
                                 <h2 class=" text-xl text-center pb-5"><?php the_sub_field('top_title'); ?></h2>
-                                <p class="font-light"><span
-                                            class="font-black">When:</span> <?php the_sub_field('when'); ?></p>
-                                <p><span class="font-black">Time:</span> <?php the_sub_field('time'); ?></p>
-                                <p><span class="font-black">Where:</span> <?php the_sub_field('where'); ?>
-                                </p>
+                                <p class="font-light"> <?php the_sub_field('tagline'); ?></p>
                             </div>
                             <div class="text-center mb-5">
                                 <div class="inline lg:pr-2">
-                                    <button id="three"
-                                            class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-3 px-5 md:px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
-                                        <?php the_sub_field('btn_1_text'); ?>
-                                    </button>
+                                    <a href="<?php the_sub_field('btn_1_link'); ?>">
+                                        <button id="three"
+                                                class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-3 px-5 md:px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
+                                            <?php the_sub_field('btn_1_text'); ?>
+                                        </button>
+                                    </a>
                                 </div>
                                 <div class="inline">
                                     <a href="<?php the_sub_field('btn_2_link'); ?>">
-                                        <button class="mx-auto lg:mx-0  border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-6 md:px-6 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                        <button id="three"
+                                                class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-3 px-5 md:px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
                                             <?php the_sub_field('btn_2_text'); ?>
                                         </button>
                                     </a>
@@ -120,22 +115,13 @@ get_header(); ?>
                         <div class="border-2 rounded-md">
                             <div class="text-left uppercase p-2">
                                 <h2 class=" text-xl text-center pb-5"><?php the_sub_field('top_title'); ?></h2>
-                                <p class="font-light"><span
-                                            class="font-black">When:</span> <?php the_sub_field('when'); ?></p>
-                                <p><span class="font-black">Time:</span> <?php the_sub_field('time'); ?></p>
-                                <p><span class="font-black">Where:</span> <?php the_sub_field('where'); ?>
-                                </p>
+                                <p class="font-light"> <?php the_sub_field('tagline'); ?></p>
                             </div>
                             <div class="text-center mb-5">
-                                <div class="inline lg:pr-2">
-                                    <button id="four"
-                                            class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-3 px-5 md:px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
-                                        <?php the_sub_field('btn_1_text'); ?>
-                                    </button>
-                                </div>
                                 <div class="inline">
                                     <a href="<?php the_sub_field('btn_2_link'); ?>">
-                                        <button class="mx-auto lg:mx-0  border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-6 md:px-6 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                        <button id="three"
+                                                class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-3 px-5 md:px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
                                             <?php the_sub_field('btn_2_text'); ?>
                                         </button>
                                     </a>
@@ -174,72 +160,7 @@ get_header(); ?>
     <!-- End Form -->
 
     <!-- Start Footer Cards-->
-    <div class="bg-green relative py-10">
-        <div class="lg:w-10/12 mx-auto">
-            <div class="grid grid-cols-12 gap-4 lg:gap-10 mx-4 text-black">
-                <?php if (have_rows('card_1')): ?>
-                    <?php while (have_rows('card_1')): the_row(); ?>
-                        <div class="col-span-12 md:col-span-4">
-                            <div class="shadow-lg">
-                                <img class="rounded-t-lg"
-                                     src="<?php the_sub_field('image'); ?>"
-                                     alt="Crowd at First time guest tent">
-                                <div class="bg-red text-center text-white py-10 rounded-b-lg">
-                                    <h3 class="text-2xl font-bold uppercase"><?php the_sub_field('title'); ?></h3>
-                                    <a href="<?php the_sub_field('button_link'); ?>">
-                                        <button class="mx-auto lg:mx-0 border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-7 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                                            <?php the_sub_field('button_text'); ?>
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    <?php endwhile; ?>
-                <?php endif; ?>
 
-                <?php if (have_rows('card_2')): ?>
-                    <?php while (have_rows('card_2')): the_row(); ?>
-                        <div class="col-span-12 md:col-span-4">
-                            <div class="shadow-lg">
-                                <img class="rounded-t-lg"
-                                     src="<?php the_sub_field('image'); ?>"
-                                     alt="Girl playing with baby">
-                                <div class="bg-red text-center text-white py-10 rounded-b-lg">
-                                    <h3 class="text-2xl font-bold uppercase"><?php the_sub_field('title'); ?></h3>
-                                    <a href="<?php the_sub_field('button_link'); ?>">
-                                        <button class="mx-auto lg:mx-0 border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-7 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                                            <?php the_sub_field('button_text'); ?>
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    <?php endwhile; ?>
-                <?php endif; ?>
-
-                <?php if (have_rows('card_3')): ?>
-                    <?php while (have_rows('card_3')): the_row(); ?>
-                        <div class="col-span-12 md:col-span-4">
-                            <div class="shadow-lg">
-                                <img class="rounded-t-lg"
-                                     src="<?php the_sub_field('image'); ?>"
-                                     alt="Girls laughing by christmas tree">
-                                <div class="bg-red text-center text-white py-10 rounded-b-lg">
-                                    <h3 class="text-2xl font-bold uppercase"><?php the_sub_field('title'); ?></h3>
-                                    <a href="<?php the_sub_field('button_link'); ?>">
-                                        <button class="mx-auto lg:mx-0 border-white border-2 text-white font-bold rounded-full my-1 md:my-1 py-2 px-7 md:px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                                            <?php the_sub_field('button_text'); ?>
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    <?php endwhile; ?>
-                <?php endif; ?>
-
-            </div>
-        </div>
-    </div>
     <!-- End Footer Cards -->
 
 
