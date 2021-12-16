@@ -89,7 +89,7 @@ get_header(); ?>
                             <div class="text-center mb-5">
                                 <div class="inline lg:pr-2">
                                     <a href="<?php the_sub_field('btn_1_link'); ?>">
-                                        <button id="three"
+                                        <button
                                                 class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-3 px-5 md:px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
                                             <?php the_sub_field('btn_1_text'); ?>
                                         </button>
@@ -97,7 +97,7 @@ get_header(); ?>
                                 </div>
                                 <div class="inline">
                                     <a href="<?php the_sub_field('btn_2_link'); ?>">
-                                        <button id="three"
+                                        <button
                                                 class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-3 px-5 md:px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
                                             <?php the_sub_field('btn_2_text'); ?>
                                         </button>
@@ -120,7 +120,7 @@ get_header(); ?>
                             <div class="text-center mb-5">
                                 <div class="inline">
                                     <a href="<?php the_sub_field('btn_2_link'); ?>">
-                                        <button id="three"
+                                        <button
                                                 class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-3 px-5 md:px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
                                             <?php the_sub_field('btn_2_text'); ?>
                                         </button>
