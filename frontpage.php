@@ -135,6 +135,35 @@ get_header(); ?>
     </div>
     <!-- End Detail Cards -->
 
+    <!-- Start Christmas Eve -->
+    <div class="bg-red p-5 relative">
+        <div class="lg:w-11/12 xl:w-9/12 mx-auto">
+            <div class="border-2 border-white rounded-md md:p-5">
+                <div class="grid grid-cols-12 gap-4 lg:gap-4 py-4 text-white">
+                    <div class="col-span-12 lg:col-span-6 px-4 md:pt-10 z-5 relative">
+                        <div class="content-middle-large">
+                            <h2 class="text-lg md:text-2xl lg:text-3xl uppercase font-black text-left"><?php the_field('ce_title'); ?></h2>
+                            <p class="text-md"><?php the_field('ce_information'); ?></p>
+                            <a href="<?php the_field('btn_link'); ?>">
+                                <button
+                                        class="button mx-auto lg:mx-0  bg-yellow text-black rounded-full my-1 md:my-1 py-3 px-5 md:px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out z-5">
+                                    <?php the_field('btn_text'); ?>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-span-12 lg:col-span-6 px-4 z-5">
+                        <img class="rounded-md shadow-lg"
+                             src="<?php the_field('ce_photo'); ?>"
+                             alt="Christmas Eve Online Screenshot">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Christmas Eve -->
+
     <!-- Start Form -->
     <div class="bg-white relative">
         <div class="lg:w-7/12 mx-auto relative min-height-form ">
